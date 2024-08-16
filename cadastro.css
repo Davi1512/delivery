@@ -1,0 +1,32 @@
+#cadastre{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+#cadastre div{
+    border-left: 2px solid black;
+    height: 91.8vh;
+}
+#image1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#image2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+h1 input{
+    width: 99.8%;
+    height: 10vh;
+}
+header{
+    font-size: 80px;
+    text-align: center;
+    
+}
+div img{
+    border: solid 1px black;
+    border-radius: 500px;
+    background-color: rgb(138, 138, 138);
+}

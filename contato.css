@@ -1,0 +1,50 @@
+#divide{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 81vh;
+}
+#divide svg{
+    height: 13vh;
+    
+}
+#teleco{
+    font-size: 70px;
+    align-items: center;
+}
+#teleco img{
+    border-radius: 20px;
+    margin-left: 130px;
+    border: solid black 2px;
+}
+#outra{
+    display: flex;
+    text-align: center;
+    align-items: end;
+    
+}
+#outra img{
+    border-radius: 20px;
+    margin-left: 130px;
+    border: solid black 2px;
+    height: 25vh;
+}
+#reclama{
+    background-color: white;
+    border: solid black 2px;
+    height: 30vh    ;
+}
+#meis{
+    height: 91.5vh;
+    border: solid black 2px;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+header{
+    font-size: 80px;
+}
+button{
+    height: 10vh;
+    width: 80%;
+    margin-left: 65px;
+}

@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#cabeca{
+    height: 75px;
+    background-color: rgb(175, 1, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#cabeca svg{
+  height: 20px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 30px;
+  padding: 2px;
+}
+#quatro{
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+#quatro a{
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 30px;
+  text-decoration: none;
+  width: 50%;
+  text-align: center;
+  color: black;
+  margin: 5px;
+}
+#cinco{
+  display: flex;
+  align-items: center;
+}
+#cinco a{
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 30px;
+  text-decoration: none;
+  width: 50%;
+  text-align: center;
+  color: black
+}
+#corpicho{
+  background-image: url(fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+#cord{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+body{
+background-size: cover;
+  background-repeat: no-repeat;
+}
+#titulo{
+    text-align: center;
+    font-size: 90px;
+}
+#separar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+#pesquisa input{
+  width: 295%;
+  border-radius: 20px;
+}
+#divpesq{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#corpo{
+  display: grid;
+  grid-template-columns: 1fr repeat(5, 2fr) 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "vazio item1 item2 item3 item4 item5 vazio2"
+                        "vazio opcoes1 opcoes1 f1 f2 f3 vazio2"
+                        "vazio opcoes2 opcoes2 ft1 ft2 ft3 vazio2"
+                        "vazio opcoes3 opcoes3 fts1 fts2 fts3 vazio2";
+  height: 75vh;
+}
+
+#i1{
+  grid-area: item1;
+
+}
+#i2{
+  grid-area: item2;
+}
+#i3{
+  grid-area: item3;
+}
+#i4{
+  grid-area: item4;
+}
+#i5{
+  grid-area: item5;
+}
+#va{
+  grid-area: vazio;
+}
+#va2{
+  grid-area: vazio2;
+}
+#op1{
+  grid-area: opcoes1;
+  font-size: 40px;
+}
+#ii1{
+  grid-area: f1;
+}
+#ii2{
+  grid-area: f2;
+}
+#ii3{
+  grid-area: f3;
+}
+#op2{
+  grid-area: opcoes2;
+  font-size: 40px;
+}
+#im1{
+  grid-area: ft1;
+}
+#im2{
+  grid-area: ft2;
+}
+#im3{
+  grid-area: ft3;
+}
+#op3{
+  grid-area: opcoes3;
+  font-size: 40px;
+}
+#img1{
+  grid-area: fts1;
+}
+#img2{
+  grid-area: fts2;
+}
+#img3{
+  grid-area: fts3;
+}
+#corpo div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#corpo>div>a>img{
+  height: 15vh;
+  background-color: red;
+  border-radius: 20px;
+}
+.borda{
+  background-color: red;
+  height: 12.5vh;
+  width: 80%;
+  border-radius: 20px;
+}
